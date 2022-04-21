@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1005/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1035/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1005/bin/cmake -E rm -f
+RM = /snap/cmake/1035/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kubus/Pulpit/tic_tac_toe
+CMAKE_SOURCE_DIR = /home/kubus/Pulpit/tic_tac_toe_imgui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kubus/Pulpit/tic_tac_toe/build
+CMAKE_BINARY_DIR = /home/kubus/Pulpit/tic_tac_toe_imgui/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tic_tac_toe.dir/depend.make
@@ -72,114 +72,114 @@ include CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o: ../src/imgui.cpp
 CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o: CMakeFiles/tic_tac_toe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o -c /home/kubus/Pulpit/tic_tac_toe/src/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.o -c /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui.cpp
 
 CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe/src/imgui.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.i
 
 CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe/src/imgui.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui.cpp.s
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o: ../src/imgui_demo.cpp
 CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o: CMakeFiles/tic_tac_toe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o -c /home/kubus/Pulpit/tic_tac_toe/src/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o -c /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_demo.cpp
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe/src/imgui_demo.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_demo.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.i
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe/src/imgui_demo.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_demo.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.s
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o: ../src/imgui_draw.cpp
 CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o: CMakeFiles/tic_tac_toe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o -c /home/kubus/Pulpit/tic_tac_toe/src/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.o -c /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_draw.cpp
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe/src/imgui_draw.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_draw.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.i
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe/src/imgui_draw.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_draw.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_draw.cpp.s
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o: ../src/imgui_impl_glfw.cpp
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o: CMakeFiles/tic_tac_toe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o -c /home/kubus/Pulpit/tic_tac_toe/src/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o -c /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_impl_glfw.cpp
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe/src/imgui_impl_glfw.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_impl_glfw.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.i
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe/src/imgui_impl_glfw.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_impl_glfw.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.s
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o: ../src/imgui_impl_opengl3.cpp
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o: CMakeFiles/tic_tac_toe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o -c /home/kubus/Pulpit/tic_tac_toe/src/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o -c /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_impl_opengl3.cpp
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe/src/imgui_impl_opengl3.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_impl_opengl3.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.i
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe/src/imgui_impl_opengl3.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_impl_opengl3.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.s
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o: ../src/imgui_tables.cpp
 CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o: CMakeFiles/tic_tac_toe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o -c /home/kubus/Pulpit/tic_tac_toe/src/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.o -c /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_tables.cpp
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe/src/imgui_tables.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_tables.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.i
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe/src/imgui_tables.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_tables.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_tables.cpp.s
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o: ../src/imgui_widgets.cpp
 CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o: CMakeFiles/tic_tac_toe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o -c /home/kubus/Pulpit/tic_tac_toe/src/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o -c /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_widgets.cpp
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe/src/imgui_widgets.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_widgets.cpp > CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.i
 
 CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe/src/imgui_widgets.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_widgets.cpp -o CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.s
 
 CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/tic_tac_toe.dir/src/main.cpp.o: CMakeFiles/tic_tac_toe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/main.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/main.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/main.cpp.o -c /home/kubus/Pulpit/tic_tac_toe/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tic_tac_toe.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tic_tac_toe.dir/src/main.cpp.o -MF CMakeFiles/tic_tac_toe.dir/src/main.cpp.o.d -o CMakeFiles/tic_tac_toe.dir/src/main.cpp.o -c /home/kubus/Pulpit/tic_tac_toe_imgui/src/main.cpp
 
 CMakeFiles/tic_tac_toe.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe/src/main.cpp > CMakeFiles/tic_tac_toe.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kubus/Pulpit/tic_tac_toe_imgui/src/main.cpp > CMakeFiles/tic_tac_toe.dir/src/main.cpp.i
 
 CMakeFiles/tic_tac_toe.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe/src/main.cpp -o CMakeFiles/tic_tac_toe.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kubus/Pulpit/tic_tac_toe_imgui/src/main.cpp -o CMakeFiles/tic_tac_toe.dir/src/main.cpp.s
 
 # Object files for target tic_tac_toe
 tic_tac_toe_OBJECTS = \
@@ -205,7 +205,7 @@ tic_tac_toe: CMakeFiles/tic_tac_toe.dir/src/imgui_widgets.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/src/main.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/build.make
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tic_tac_toe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tic_tac_toe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tic_tac_toe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/tic_tac_toe.dir/clean:
 .PHONY : CMakeFiles/tic_tac_toe.dir/clean
 
 CMakeFiles/tic_tac_toe.dir/depend:
-	cd /home/kubus/Pulpit/tic_tac_toe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kubus/Pulpit/tic_tac_toe /home/kubus/Pulpit/tic_tac_toe /home/kubus/Pulpit/tic_tac_toe/build /home/kubus/Pulpit/tic_tac_toe/build /home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles/tic_tac_toe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kubus/Pulpit/tic_tac_toe_imgui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kubus/Pulpit/tic_tac_toe_imgui /home/kubus/Pulpit/tic_tac_toe_imgui /home/kubus/Pulpit/tic_tac_toe_imgui/build /home/kubus/Pulpit/tic_tac_toe_imgui/build /home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles/tic_tac_toe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tic_tac_toe.dir/depend
 

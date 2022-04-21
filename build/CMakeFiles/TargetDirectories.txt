@@ -1,3 +1,3 @@
-/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles/tic_tac_toe.dir
-/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles/edit_cache.dir
-/home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles/rebuild_cache.dir
+/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles/tic_tac_toe.dir
+/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles/edit_cache.dir
+/home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles/rebuild_cache.dir

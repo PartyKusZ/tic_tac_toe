@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kubus/Pulpit/tic_tac_toe/inc
+CXX_INCLUDES = -I/home/kubus/Pulpit/tic_tac_toe_imgui/inc
 
 CXX_FLAGS = 
 

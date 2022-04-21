@@ -63,7 +63,7 @@
 #endif
 
 // GLFW
-#include "/home/kubus/Pulpit/imgui/imgui/examples/libs/glfw/include/GLFW/glfw3.h" // Will drag system OpenGL headers
+#include "glfw3.h" // Will drag system OpenGL headers
 
 #ifdef _WIN32
 #undef APIENTRY

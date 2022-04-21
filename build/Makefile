@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/1005/bin/cmake
+CMAKE_COMMAND = /snap/cmake/1035/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/1005/bin/cmake -E rm -f
+RM = /snap/cmake/1035/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kubus/Pulpit/tic_tac_toe
+CMAKE_SOURCE_DIR = /home/kubus/Pulpit/tic_tac_toe_imgui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kubus/Pulpit/tic_tac_toe/build
+CMAKE_BINARY_DIR = /home/kubus/Pulpit/tic_tac_toe_imgui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/1005/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/1035/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles /home/kubus/Pulpit/tic_tac_toe/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles /home/kubus/Pulpit/tic_tac_toe_imgui/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kubus/Pulpit/tic_tac_toe/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kubus/Pulpit/tic_tac_toe_imgui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

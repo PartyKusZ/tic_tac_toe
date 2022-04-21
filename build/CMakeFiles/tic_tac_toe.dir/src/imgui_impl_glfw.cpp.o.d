@@ -1,7 +1,8 @@
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o: \
- /home/kubus/Pulpit/tic_tac_toe/src/imgui_impl_glfw.cpp \
- /usr/include/stdc-predef.h /home/kubus/Pulpit/tic_tac_toe/inc/imgui.h \
- /home/kubus/Pulpit/tic_tac_toe/inc/imconfig.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_impl_glfw.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imgui.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h /usr/include/string.h \
@@ -14,8 +15,8 @@ CMakeFiles/tic_tac_toe.dir/src/imgui_impl_glfw.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/kubus/Pulpit/tic_tac_toe/inc/imgui_impl_glfw.h \
- /home/kubus/Pulpit/imgui/imgui/examples/libs/glfw/include/GLFW/glfw3.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imgui_impl_glfw.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \

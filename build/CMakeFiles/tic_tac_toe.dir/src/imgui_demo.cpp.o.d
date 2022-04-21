@@ -1,7 +1,8 @@
 CMakeFiles/tic_tac_toe.dir/src/imgui_demo.cpp.o: \
- /home/kubus/Pulpit/tic_tac_toe/src/imgui_demo.cpp \
- /usr/include/stdc-predef.h /home/kubus/Pulpit/tic_tac_toe/inc/imgui.h \
- /home/kubus/Pulpit/tic_tac_toe/inc/imconfig.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_demo.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imgui.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h /usr/include/string.h \

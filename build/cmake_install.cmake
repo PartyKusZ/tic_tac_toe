@@ -1,4 +1,4 @@
-# Install script for directory: /home/kubus/Pulpit/tic_tac_toe
+# Install script for directory: /home/kubus/Pulpit/tic_tac_toe_imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kubus/Pulpit/tic_tac_toe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kubus/Pulpit/tic_tac_toe_imgui/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

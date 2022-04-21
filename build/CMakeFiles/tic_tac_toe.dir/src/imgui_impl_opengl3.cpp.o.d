@@ -1,7 +1,8 @@
 CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o: \
- /home/kubus/Pulpit/tic_tac_toe/src/imgui_impl_opengl3.cpp \
- /usr/include/stdc-predef.h /home/kubus/Pulpit/tic_tac_toe/inc/imgui.h \
- /home/kubus/Pulpit/tic_tac_toe/inc/imconfig.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/src/imgui_impl_opengl3.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imgui.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h /usr/include/string.h \
@@ -14,7 +15,7 @@ CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/kubus/Pulpit/tic_tac_toe/inc/imgui_impl_opengl3.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imgui_impl_opengl3.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -32,7 +33,7 @@ CMakeFiles/tic_tac_toe.dir/src/imgui_impl_opengl3.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/kubus/Pulpit/tic_tac_toe/inc/imgui_impl_opengl3_loader.h \
+ /home/kubus/Pulpit/tic_tac_toe_imgui/inc/imgui_impl_opengl3_loader.h \
  /usr/include/c++/9/stdlib.h /usr/include/c++/9/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
